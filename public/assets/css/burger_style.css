@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #FA1F19;
+    color: #9f9c9c;
     -webkit-text-stroke: 1px black;
     text-shadow:
        3px 3px 0 #000,
@@ -71,8 +71,8 @@ body {
 }
 
 #notDevoured h4 {
-    font-family: 'Luckiest Guy', cursive;
-    color: #FA1F19;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Luckiest Guy', cursive;
+    color: #9f9c9c;
     -webkit-text-stroke: 1px black;
     text-shadow:
        3px 3px 0 #000,
@@ -92,7 +92,7 @@ body {
     margin-right: 20px;
     margin-bottom: 5px;
     cursor: pointer;
-    background: #FA1F19;
+    background: #9f9c9c;
     color: #fff;
     border-color: #000;
 }
@@ -104,8 +104,8 @@ body {
 
 /* Devour list */
 #devoured h4 {
-    font-family: 'Luckiest Guy', cursive;   
-    color: #FA1F19;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Luckiest Guy', cursive;   
+    color: #9f9c9c;
     -webkit-text-stroke: 1px black;
     text-shadow:
        3px 3px 0 #000,
@@ -123,7 +123,7 @@ body {
 
 .create-burger h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #FA1F19;
+    color: #9f9c9c;
     -webkit-text-stroke: 1px black;
     text-shadow:
        3px 3px 0 #000,
@@ -155,7 +155,7 @@ body {
 }
 
 #burgerButton:hover {
-    background: #FA1F19;
+    background: #9f9c9c;
     color: #fff;
     font-weight: bold;
 }

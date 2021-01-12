@@ -16,11 +16,13 @@
             <h4>Burgers Menu</h4>
             <ul>
                 {{#each burgers}}
-                {{#unless this.devoured}}
-                {{> burgers/burger-block devoured=false}}
-                {{/unless}}
+                    {{#unless devoured}}
+                        <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
+                        <button type="button" class="eatburger btn btn-warning" id ="eatbutton" data-id="{{this.id}}" data-newDevoured="{{devour}}"><span class="fa fa-cutlery"></span></button>
+                        <hr>
+                    {{/unless}}
                 {{/each}}
-            </ul>
+                    </ul>
         </div>
 
         <div class="col s12 l6" id="devoured">
@@ -28,7 +30,7 @@
             <ul>
                 {{#each burgers}}
                 {{#if this.devoured}}
-                {{> burgers/burger-block devoured=true}}
+                {{> Burgers =true}}
                 {{/if}}
                 {{/each}}
             </ul>
