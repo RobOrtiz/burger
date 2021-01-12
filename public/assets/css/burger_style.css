@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(/assets/img/background.jpeg) no-repeat center center fixed;
+    background: url(/public/assets/img/burger-BG.png) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -24,7 +24,7 @@ body {
     opacity: 0.4;
 }
 
-/* ===== TITLE HEADER ===== */
+/* Header */
 .title {
     display: flex;
     flex-direction: column;
@@ -65,7 +65,7 @@ body {
     text-align: center;
 }
 
-/* ===== NOT DEVOURED SECTION ===== */
+/* Burger List */
 #notDevoured {
     padding-left: 20px;
 }
@@ -84,7 +84,7 @@ body {
 
 .list {
     font-family: 'Roboto', sans-serif;
-    color: #FCEC04;
+    color: #f2efc3;
     text-shadow: 0px 0px 8px #000000;
 }
 
@@ -98,11 +98,11 @@ body {
 }
 
 .devoured:hover {
-    background: #FCEC04;
+    background: #f2efc3;
     color: #000;
 }
 
-/* ===== DEVOURED SECTION ===== */
+/* Devour list */
 #devoured h4 {
     font-family: 'Luckiest Guy', cursive;   
     color: #FA1F19;
@@ -115,14 +115,14 @@ body {
        1px 1px 0 #000; 
 }
 
-/* ===== ADD BURGER SECTION ===== */
+/* Add Burger */
 .create-burger {
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 .create-burger h4 {
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #FA1F19;
     -webkit-text-stroke: 1px black;
     text-shadow:
@@ -134,21 +134,21 @@ body {
 }
 
 .addNewBurger {
-    color: #FCEC04;
+    color: #f2efc3;
     text-shadow: 0px 0px 8px #000000;
     font-size: 18px;
 }
 
 #burgerName {
     margin-bottom: 20px;
-    color: #FCEC04;
+    color: #f2efc3;
     text-shadow: 0px 0px 8px #000000;
 }
 
 #burgerButton {
     padding: 10px;
     cursor: pointer;
-    background: #FCEC04;
+    background: #f2efc3;
     color: #000;
     border-color: #000;
     font-weight: bold;
