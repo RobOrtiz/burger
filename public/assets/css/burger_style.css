@@ -30,14 +30,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #9f9c9c;
-    -webkit-text-stroke: 1px black;
+    color: white;
+    -webkit-text-stroke: 1px white;
     text-shadow:
-       3px 3px 0 #000,
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+       3px 3px 0 #9f9c9c,
+      -1px -1px 0 #9f9c9c,  
+       1px -1px 0 #9f9c9c,
+      -1px 1px 0 #9f9c9c,
+       1px 1px 0 w#9f9c9c;
 }
 
 .title h1 {
@@ -72,14 +72,14 @@ body {
 
 #notDevoured h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Luckiest Guy', cursive;
-    color: #9f9c9c;
-    -webkit-text-stroke: 1px black;
+    color: white;
+    -webkit-text-stroke: 1px white;
     text-shadow:
-       3px 3px 0 #000,
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+       3px 3px 0 #9f9c9c,
+      -1px -1px 0 #9f9c9c,  
+       1px -1px 0 #9f9c9c,
+      -1px 1px 0 #9f9c9c,
+       1px 1px 0 #9f9c9c;
 }
 
 .list {
@@ -92,21 +92,21 @@ body {
     margin-right: 20px;
     margin-bottom: 5px;
     cursor: pointer;
-    background: #9f9c9c;
+    background: black;
     color: #fff;
     border-color: #000;
 }
 
 .devoured:hover {
-    background: #f2efc3;
-    color: #000;
+    background: black;
+    color: #f2efc3;
 }
 
 /* Devour list */
 #devoured h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 'Luckiest Guy', cursive;   
-    color: #9f9c9c;
-    -webkit-text-stroke: 1px black;
+    color: white;
+    -webkit-text-stroke: 1px white;
     text-shadow:
        3px 3px 0 #000,
       -1px -1px 0 #000,  
@@ -123,39 +123,39 @@ body {
 
 .create-burger h4 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #9f9c9c;
-    -webkit-text-stroke: 1px black;
+    color: black;
+    -webkit-text-stroke: 1px white;
     text-shadow:
-       3px 3px 0 #000,
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+       3px 3px 0 #9f9c9c,
+      -1px -1px 0 #9f9c9c,  
+       1px -1px 0#9f9c9c,
+      -1px 1px 0 #9f9c9c,
+       1px 1px 0 #9f9c9c;
 }
 
 .addNewBurger {
-    color: #f2efc3;
+    color: white;
     text-shadow: 0px 0px 8px #000000;
     font-size: 18px;
 }
 
 #burgerName {
     margin-bottom: 20px;
-    color: #f2efc3;
+    color: white;
     text-shadow: 0px 0px 8px #000000;
 }
 
 #burgerButton {
     padding: 10px;
     cursor: pointer;
-    background: #f2efc3;
+    background: #9f9c9c;
     color: #000;
-    border-color: #000;
+    border-color: white;
     font-weight: bold;
 }
 
 #burgerButton:hover {
-    background: #9f9c9c;
+    background: #e10909;
     color: #fff;
     font-weight: bold;
 }
